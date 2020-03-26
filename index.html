@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8">
+    <meta description="The easiest way to understand and compare credit card rewards">
+    <meta keywords="">
+    <title>Credit Wallet</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div id="head">
+        <h1>SimpleWallet</h1>
+    </div>
+    <div id="filter">
+        <p>Filter</p>
+        <form>
+            <ul>
+                <li><input type="checkbox" id="basecashback" name="basecashback" onclick="showCards()">
+                    <label for="basecashback">Base Cashback</label></li>
+
+                <li><input type="checkbox" id="calendarcashback" name="calendarcashback">
+                    <label for="calendarcashback">Calendar Cashback</label></li>
+
+                <li><input type="checkbox" id="priceprotection" name="priceprotection">
+                    <label for="priceprotection">Price Protection</label></li>
+            </ul>
+        </form>
+    </div>
+    <div id="cards">
+        <div id="ChaseAmazon" class="basecashback">
+            <img src=pictures/chaseamazonprimerewards.jpg>
+            <h3>Chase Amazon Prime Rewards</h3>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body></html>

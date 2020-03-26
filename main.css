@@ -1,0 +1,30 @@
+#head {
+    margin: auto;
+    width: 50%;
+}
+
+#head h1,
+h2 {
+    text-align: center;
+}
+
+#filter {
+    display: block;
+}
+
+#filter p {
+    font-size: 2em;
+    font-weight: 1000;
+    fon t-style: italic;
+    margin:auto;
+}
+ul{
+    list-style: none;
+    margin:auto;
+    padding:auto;
+    padding-left: 0;
+}
+
+#content {
+    width: 70%;
+}
