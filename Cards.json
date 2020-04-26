@@ -1,0 +1,20 @@
+{
+    "Cards": {
+        "DiscoverIt": {
+            "CCB": 1,
+            "BCB": 5,
+            "PriP": 0,
+            "PurP": 0,
+            "EW": 0,
+            "Con": 0
+        },
+        "ChaseFreedom": {
+            "CCB": 1,
+            "BCB": 5,
+            "PriP": 0,
+            "PurP": 120,
+            "EW": 1,
+            "Con": 1
+        }
+    }
+}

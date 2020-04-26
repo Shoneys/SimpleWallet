@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-	<head>
+
+<head>
     <meta charset="utf-8">
     <meta description="The easiest way to understand and compare credit card rewards">
     <meta keywords="">
@@ -20,19 +21,25 @@
                 <li><input type="checkbox" id="basecashback" name="basecashback" onclick="showCards()">
                     <label for="basecashback">Base Cashback</label></li>
 
-                <li><input type="checkbox" id="calendarcashback" name="calendarcashback">
+                <li><input type="checkbox" id="calendarcashback" name="calendarcashback" onclick="showCards()">
                     <label for="calendarcashback">Calendar Cashback</label></li>
 
-                <li><input type="checkbox" id="priceprotection" name="priceprotection">
+                <li><input type="checkbox" id="priceprotection" name="priceprotection" onclick="showCards()">
                     <label for="priceprotection">Price Protection</label></li>
             </ul>
         </form>
     </div>
     <div id="cards">
-        <div id="ChaseAmazon" class="basecashback">
+        <div id="ChaseAmazoncard" class="bcb">
             <img src=pictures/chaseamazonprimerewards.jpg>
             <h3>Chase Amazon Prime Rewards</h3>
         </div>
+        <div id="ChaseFreedombase" class="bcb ccb">
+            <img src=pictures/chasefreedombase.jpg>
+            <h3>Chase Freedom Base</h3>
+        </div>
     </div>
     <script src="scripts.js"></script>
-</body></html>
+</body>
+
+</html>
